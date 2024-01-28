@@ -364,7 +364,7 @@ function contact() {
 
 function nameVaildation() {
   let text = username.value;
-  let regexname = /^[A-Za-z]{3,}$/;
+  let regexname = /^[A-Z a-z]{3,}$/;
   if (regexname.test(text)) {
     
     return true;
